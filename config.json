@@ -1,0 +1,7 @@
+{
+    "username" : "xxxx.xxx",
+    "password" : "xxxx",
+    "project_id" : "xxxx",
+    "xml_path" : "/mnt/nfsroot/xxx.xml",
+    "gerrit_addr" : "source.xxxx.com"
+}
