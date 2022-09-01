@@ -32,8 +32,7 @@ output = subprocess.check_output([cmd], shell=True).decode('utf-8')
 commit_json = json.loads(output.split("\n")[0])
 
 #print(commit_json)
-commit_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(commit_json['createdOn']))
-
+commit_time = time.strftime("%a %b %d %H:%M:%S %Y", time.localtime(commit_json['createdOn'])) + " +0800"
 
 
 commit_url = commit_json['url']
